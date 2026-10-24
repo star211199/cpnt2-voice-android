@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oulab 语音</string>
+    <string name="app_brand">CPNT</string>
+    <string name="app_subtitle">超低码率语音</string>
+
+    <!-- 通用 -->
+    <string name="online">在线</string>
+    <string name="offline">离线</string>
+    <string name="connecting">连接中...</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">已断开</string>
+    <string name="scanning">正在扫描附近设备...</string>
+    <string name="scan">扫描</string>
+    <string name="stop">停止</string>
+
+    <!-- 底部 Tab -->
+    <string name="tab_discover">发现</string>
+    <string name="tab_settings">设置</string>
+
+    <!-- 权限 -->
+    <string name="perm_bluetooth_required">需要蓝牙权限以发现和连接设备</string>
+    <string name="perm_audio_required">需要麦克风权限以进行语音通话</string>
+    <string name="perm_location_required">蓝牙扫描需要位置权限</string>
+
+    <!-- 发现页 -->
+    <string name="info_card_title">Oulab · 超低码率语音</string>
+    <string name="info_card_subtitle">CPNT2 神经编解码器 · 0.4~1.4 kbps @ 8 kHz</string>
+    <string name="no_device_found">未发现附近设备</string>
+    <string name="device_meta_format">约 %1$d 米 · 已连接</string>
+    <string name="device_meta_nearby_format">约 %1$d 米 · 可连接</string>
+    <string name="my_device">本机</string>
+    <string name="loopback_test">单机测试 · 无需蓝牙</string>
+
+    <!-- 通话页 -->
+    <string name="call_status_format">通话中 %1$s</string>
+    <string name="call_codec_card_title">Oulab 超低码率语音编解码器</string>
+    <string name="call_codec_meta">BLE · 8 kHz · 40 ms · CPNT2</string>
+    <string name="label_encode">编码</string>
+    <string name="label_decode">解码</string>
+    <string name="label_bitrate">码率 (bps)</string>
+    <string name="label_source">音源</string>
+    <string name="source_mic">麦克风</string>
+    <string name="source_sine">英语女声</string>
+    <string name="source_music">音乐</string>
+    <string name="btn_mute">静音</string>
+    <string name="btn_unmute">取消静音</string>
+    <string name="btn_hangup">挂断</string>
+    <string name="btn_speaker">免提</string>
+    <string name="btn_earpiece">听筒</string>
+    <string name="role_encoder">本机作为发送方（编码）</string>
+    <string name="role_decoder">本机作为接收方（解码）</string>
+    <string name="role_auto">自动协商（先连上再说）</string>
+
+    <!-- 设置页 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_version">库版本</string>
+    <string name="settings_supported_modes">支持的码率</string>
+    <string name="settings_run_test">运行单设备全码率测试</string>
+    <string name="settings_run_test_desc">使用本地音频测试所有码率的压缩比和耗时</string>
+    <string name="settings_device_info">设备信息</string>
+
+    <!-- 单位 -->
+    <string name="unit_kbps">%1$.1f kbps</string>
+    <string name="unit_bps">%1$.0f bps</string>
+    <string name="unit_ms">%1$d ms</string>
+    <string name="unit_ratio">%1$.1f : 1</string>
+</resources>

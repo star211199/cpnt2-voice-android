@@ -1,0 +1,13 @@
+* text=auto
+
+# 保证脚本在 Linux / macOS 上可直接执行
+gradlew text eol=lf
+*.sh    text eol=lf
+*.bat   text eol=crlf
+
+# 二进制资源
+*.jpg   binary
+*.png   binary
+*.so    binary
+*.jar   binary
+*.raw   binary

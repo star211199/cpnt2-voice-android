@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="CPNT2 Oulab 超低码率语音">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E5BFF"/>
+      <stop offset="0.55" stop-color="#4A5BFF"/>
+      <stop offset="1" stop-color="#7C5BFF"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .title { font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', system-ui, sans-serif; }
+      .mono  { font-family: 'Cascadia Mono', 'SFMono-Regular', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+  <circle cx="1080" cy="20" r="200" fill="#FFFFFF" opacity="0.06"/>
+  <circle cx="120" cy="310" r="160" fill="#FFFFFF" opacity="0.05"/>
+
+  <!-- 左侧品牌信息 -->
+  <text class="mono" x="80" y="96" fill="#D9D6FF" font-size="17" letter-spacing="4">CPNT2 / CODEC2 · ANDROID</text>
+  <text class="title" x="80" y="166" fill="#FFFFFF" font-size="46" font-weight="700">Oulab 超低码率语音</text>
+  <text class="title" x="80" y="212" fill="#E9E7FF" font-size="19">两台手机，只靠蓝牙实时通话 · 0.15 – 3.2 kbps · 无需联网</text>
+
+  <!-- 左侧标签 -->
+  <g transform="translate(80, 240)">
+    <rect width="96" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.16" stroke="#FFFFFF" stroke-opacity="0.35"/>
+    <text class="mono" x="48" y="19" fill="#FFFFFF" font-size="13" text-anchor="middle">BLE P2P</text>
+    <rect x="108" width="86" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.16" stroke="#FFFFFF" stroke-opacity="0.35"/>
+    <text class="mono" x="151" y="19" fill="#FFFFFF" font-size="13" text-anchor="middle">JNI</text>
+    <rect x="206" width="128" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.16" stroke="#FFFFFF" stroke-opacity="0.35"/>
+    <text class="mono" x="270" y="19" fill="#FFFFFF" font-size="13" text-anchor="middle">ONNX RUNTIME</text>
+  </g>
+
+  <!-- 右侧波形 -->
+  <g fill="#FFFFFF" fill-opacity="0.9">
+    <rect x="780"  y="138" width="10" height="24"  rx="5"/>
+    <rect x="798"  y="126" width="10" height="48"  rx="5"/>
+    <rect x="816"  y="114" width="10" height="72"  rx="5"/>
+    <rect x="834"  y="95"  width="10" height="110" rx="5"/>
+    <rect x="852"  y="75"  width="10" height="150" rx="5"/>
+    <rect x="870"  y="90"  width="10" height="120" rx="5"/>
+    <rect x="888"  y="107" width="10" height="86"  rx="5"/>
+    <rect x="906"  y="80"  width="10" height="140" rx="5"/>
+    <rect x="924"  y="65"  width="10" height="170" rx="5"/>
+    <rect x="942"  y="85"  width="10" height="130" rx="5"/>
+    <rect x="960"  y="102" width="10" height="96"  rx="5"/>
+    <rect x="978"  y="120" width="10" height="60"  rx="5"/>
+    <rect x="996"  y="95"  width="10" height="110" rx="5"/>
+    <rect x="1014" y="75"  width="10" height="150" rx="5"/>
+    <rect x="1032" y="90"  width="10" height="120" rx="5"/>
+    <rect x="1050" y="110" width="10" height="80"  rx="5"/>
+    <rect x="1068" y="124" width="10" height="52"  rx="5"/>
+    <rect x="1086" y="133" width="10" height="34"  rx="5"/>
+    <rect x="1104" y="118" width="10" height="64"  rx="5"/>
+    <rect x="1122" y="130" width="10" height="40"  rx="5"/>
+  </g>
+</svg>
